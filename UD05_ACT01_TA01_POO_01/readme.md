@@ -16,6 +16,7 @@ Crearlo (filas x columnas)
 Cargarlo con los 4 estados
 Mostrarlo
 Ponerlo a cero
+
 Entregar:
 
 Implementación en lenguaje de programación Java (.java).
@@ -39,24 +40,6 @@ Clase: Instanciadora
 Propiedades: (ninguna)
 Métodos: main(String[] args)
 El método main debe instanciar 1 Tablero y mostrarlo en pantalla.
-====================================================
-
-.- Tablero de ejemplo de dimensiones (7x16). No hay que implementar este ejemplo, implementa uno que te inventes con el límite de dimensiones de 15x15
-
-~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ * * * * ~
-
-~ ~ ~ ~ * * * * ~ ~ ~ ~ ~ ~ ~ ~
-
-~ ~ ~ ~ * * * ~ ~ ~ ~ ~ ~ ~ ~ ~
-
-~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-
-~ ~ ~ ~ ~ ~ ~ ~ * * * ~ ~ ~ # #
-
-~ ~ ~ ~ ~ ~ ~ ~ * * ~ # # # # #
-
-~ ~ ~ ~ ~ ~ ~ ~ ~ ~ # # # # # #
-====================================================
 
 
 Plan de pruebas:
