@@ -1,4 +1,4 @@
-#Enunciado
+# Enunciado
 
 Implementa la clase **Terminal**. Un terminal tiene asociado un número. Los
 terminales se pueden llamar unos a otros y el tiempo de conversación corre
