@@ -1,1 +1,1 @@
-# Carpeta con archivos de tutoriales guiados
+# Carpeta con projectos de Java
