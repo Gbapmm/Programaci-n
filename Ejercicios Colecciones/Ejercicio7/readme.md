@@ -8,7 +8,7 @@ cruz. Simula, mediante un programa, la generación de 6 monedas aleatorias
 siguiendo la pauta correcta. Cada moneda generada debe ser una instancia de
 la clase **Moneda** y la secuencia se debe ir almacenando en una lista.
 >
-``
+```
 Ejemplo:
 2 céntimos – cara
 2 céntimos – cruz
@@ -16,4 +16,4 @@ Ejemplo:
 1 euro – cruz
 1 euro – cara
 10 céntimos – cara
-``
+```
