@@ -2,19 +2,16 @@ package Ejercicio7;
 
 public class Moneda {
 
-	private int valor;
+	private String valor;
 	private String posicion;
 
-	public Moneda(int valor, String posicion) {
-		this.posicion = posicion;
+	public Moneda(String valor, String posicion) {
 		this.valor = valor;
+		this.posicion = posicion;
 	}
 
+	@Override
 	public String toString() {
-		if (valor < 100) {
-			return "Moneda de " + valor + " céntimos";
-		} else {
-			return "Moneda de " + (valor / 100) + " euros";
-		}
+		return valor + " - " + posicion;
 	}
 }
