@@ -1,6 +1,5 @@
 package Ejercicio10;
 
-
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -41,6 +40,7 @@ public class Main {
         } else {
             System.out.println("La palabra ingresada no está en el diccionario.");
         }
+        
         scanner.close();
     }
 }
