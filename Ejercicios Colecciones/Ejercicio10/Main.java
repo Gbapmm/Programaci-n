@@ -30,6 +30,7 @@ public class Main {
     diccionario.put("Tijeras", "Scissors");
 
     Scanner scanner = new Scanner(System.in);
+        
         System.out.print("Ingresa una palabra en español: ");
         String palabraEspañol = scanner.nextLine();
 
@@ -40,5 +41,6 @@ public class Main {
         } else {
             System.out.println("La palabra ingresada no está en el diccionario.");
         }
+        scanner.close();
     }
 }
