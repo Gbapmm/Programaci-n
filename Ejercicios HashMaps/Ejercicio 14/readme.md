@@ -1,6 +1,6 @@
 # Enunciado
 >
->Un supermercado de productos ecológicos nos ha pedido hacer un programa
+Un supermercado de productos ecológicos nos ha pedido hacer un programa
 para vender su mercancía. En esta primera versión del programa se tendrán
 en cuenta los productos que se indican en la tabla junto con su precio. Los
 productos se venden en bote, brick, etc. Cuando se realiza la compra, hay que
