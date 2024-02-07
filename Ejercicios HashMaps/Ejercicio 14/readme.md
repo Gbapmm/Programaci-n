@@ -16,3 +16,23 @@ respectivos precios:
 | avena  | garvanzos | tomate | jengibre | quinoa | guisantes |
 | ------ | --------- | ------ | -------- | ------ | --------- |
 |  2,21  |    2,39   |  1,59  |   3,13   |  4,50  |    1,60   |
+>
+```
+Producto: tomate
+Cantidad: 1
+Producto: quinoa
+Cantidad: 2
+Producto: avena
+Cantidad: 1
+Producto: tomate
+Cantidad: 2
+Producto: fin
+Producto Precio Cantidad Subtotal
+---------------------------------
+tomate 1,59 1 1,59
+quinoa 4,50 2 9,00
+avena 2,21 1 2,21
+tomate 1,59 2 3,18
+---------------------------------
+TOTAL: 15,98
+```
