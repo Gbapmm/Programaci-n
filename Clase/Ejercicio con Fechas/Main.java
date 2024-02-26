@@ -17,11 +17,11 @@ import java.util.Locale;
 public class Main {
 	public static void main(String[]args) {
 		
-    //1
+	//1
     DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     DateTimeFormatter formatoG = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 	
-    //2
+	//2
     System.out.println("1-" + LocalDate.now());
     
     //3
