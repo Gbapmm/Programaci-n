@@ -1,4 +1,4 @@
-public class Ejercicio4 {
+public class Main {
 	public static void main(String[] args) {
 		String texto = "Este é un exemplo de texto. Inclúe varias frases e parágrafos.\n"
 				+ "Outra frase aquí. E un novo parágrafo.\n" + "Última frase do texto.";
