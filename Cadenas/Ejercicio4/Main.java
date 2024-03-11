@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
-		String texto = "Este é un exemplo de texto. Inclúe varias frases e parágrafos.\n"
-				+ "Outra frase aquí. E un novo parágrafo.\n" + "Última frase do texto.";
+		String texto = "Este es un ejmplo de texto. Incluye varias frases e parrafos.\n"
+				+ "Otra frase aquí. Es un nuevo parrafo.\n" + "Última frase del texto.";
 		String palabrabuscada = "frase";
 
 		int apariciones = aparicionesPalabra(texto, palabrabuscada);

@@ -1,12 +1,11 @@
 # Enunciado
 >
-Crea una pequena aplicación que permita leer una serie de caracteres, que se leerán en formato de número (de 0 a 65535, que son las posiciones en las que se encuentran los caracteres en la tabla Unicode), y que realizará una determinada operación sobre este listado de caracteres.
+Crea una pequeña aplicación que permita leer una serie de caracteres, que se leerán en formato de número (de 0 a 65535, que son las posiciones en las que se encuentran los caracteres en la tabla Unicode), y que realizará una determinada operación sobre este listado de caracteres.
 >
 A aplicación debe cumprir os seguintes requisitos:
 >
 * Solicitar una cantidad de números a leer, que estará entre 1 e 50. Si se selecciona 0
 se mostrará un mensaje de que se está saliendo del programa, y terminará su execución.
->
 * Mostrará un pequeno menú para realizar operaciones sobre los números que se van a leer.
 Este menú tendrá un formato como el siguiente:
 ```
@@ -14,7 +13,7 @@ Opciones disponibles:
     1. Indicar cuantas letras hay.
     2. indicar cuantos dígitos hay.
     3. Indicar cuantos son mayúsculas.
-    4. Trasnformalro todo a minúsculas.
+    4. Trasnformarlo todo a minúsculas.
     5. Salir.
 ```
 * Se deberá de repetir la lectura de la opción seleccionada meintras que no se escoja una de las

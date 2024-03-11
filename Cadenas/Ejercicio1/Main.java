@@ -13,7 +13,7 @@ public class Main {
         boolean repetir = false;
 
         while ((!sair) && (cont == 0)) {
-            System.out.print("Introduza a cantidade de números a ler [1-50][0 para saír]: ");
+            System.out.print("Introduza la cantidad de números a leer [1-50][0 para saír]: ");
             if (sc.hasNextByte()) {
                 cont = sc.nextByte();
 
@@ -23,33 +23,33 @@ public class Main {
                     cont = (cont < 1 || cont > 50) ? 0 : cont;
                 }
             } else {
-                System.out.println("\tERRO: Débese introducir un número entre 1 e 50");
+                System.out.println("\tERROR:  Se debe introducir un número entre 1 e 50");
                 sc.next();
                 cont = 0;
             }
         }
 
         if (!sair) {
-            System.out.println("\nOpcións dispoñibles:\n"
-                    + "\t1. Indicar cantas letras hai.\n"
-                    + "\t2. Indicar cantos díxitos hai.\n"
-                    + "\t3. Indicar cantos son maiúsculas.\n"
-                    + "\t4. Transformalo a minúscula.\n"
+            System.out.println("\Opciones disponibles:\n"
+                    + "\t1. Indicar cuantas letras hay.\n"
+                    + "\t2. indicar cuantos dígitos hay.\n"
+                    + "\t3. Indicar cuantos son mayúsculas.\n"
+                    + "\t4. Transformalo todo a minúsculas.\n"
                     + "\t5. Saír");
 
             do {
                 repetir = false;
-                System.out.print("Indique a operación que desexe realizar "
-                        + "sobre os caracteres correspondentes: ");
+                System.out.print("Indique la operación que desee realizar "
+                        + "sobre los caracteres correspondentes: ");
                 if (sc.hasNextByte()) {
                     opcion = sc.nextByte();
                     if (opcion < 1 || opcion > 5) {
-                        System.out.println("\tATENCIÓN! Opción non dispoñible. "
-                                + "Volva a seleccionar. ");
+                        System.out.println("\tATENCIÓN! Opción no disponible. "
+                                + "Vuelva a seleccionar. ");
                         repetir = true;
                     }
                 } else {
-                    System.out.println("\tERRO: Débese introducir unha entre 1 e 5");
+                    System.out.println("\tERROR: Se debe introducir un caracter entre 1 e 5");
                     sc.next();
                     repetir = true;
                 }
@@ -59,7 +59,7 @@ public class Main {
 
             if (!sair) {
                 numero = 1;
-                System.out.println("Introduza os " + cont + " números [0-65535]");
+                System.out.println("Introduza los " + cont + " números [0-65535]");
 
                 while (cont != 0) {
                     do {
@@ -68,18 +68,18 @@ public class Main {
                         if (sc.hasNextInt()) {
                             valor = sc.nextInt();
                             if (valor < 0 || valor > 65535) {
-                                System.out.println("\tATENCIÓN! Número non dispoñible." + "Volva a introducir. ");
+                                System.out.println("\tATENCIÓN! Número no disponible." + "Vuelva a introducir. ");
                                 repetir = true;
                             }
                         } else {
-                            System.out.println("\tERRO: Débese introducir un número entre 0 e 65535");
+                            System.out.println("\tERROR: Se debe introducir un número entre 0 e 65535");
                             sc.next();
                             repetir = true;
                         }
                     } while (repetir);
 
                     car = (char) valor;
-                    System.out.println("\tValor do carácter: " + car);
+                    System.out.println("\tValor del carácter: " + car);
 
                     switch (opcion) {
                         case 1:
@@ -102,19 +102,19 @@ public class Main {
 
                 switch (opcion) {
                     case 1:
-                        System.out.println(" **Hai " + resultado + " letras**");
+                        System.out.println(" **Hay " + resultado + " letras**");
                         break;
                     case 2:
-                        System.out.println("**Hai " + resultado + " díxitos**");
+                        System.out.println("**Hay " + resultado + " dígitos**");
                         break;
                     case 3:
-                        System.out.println("**Hai " + resultado + " maiúsculas**");
+                        System.out.println("**Hay " + resultado + " mayúsculas**");
                         break;
                 }
             }
         }
 
-        System.out.println("Saíndo do programa...");
+        System.out.println("Saliendo del programa...");
         sc.close();
     }
 }
