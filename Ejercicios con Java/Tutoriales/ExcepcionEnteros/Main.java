@@ -21,7 +21,7 @@ public class Main {
                 }
 
                 System.out.println("Su edad es de: " + edad);
-                break; // Si se logra convertir correctamente, se sale del bucle
+                break;
             } catch (ExcepcionEnteros e) {
                 System.out.println(e.getMessage());
             }
