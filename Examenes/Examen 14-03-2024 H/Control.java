@@ -1,4 +1,6 @@
 package Examen;
+
+import examen.HorarioVueloException;
 import java.time.LocalDateTime;
 import java.util.Comparator;
 import java.util.Iterator;
@@ -59,5 +61,9 @@ public class Control {
 
     public void agregarVuelo(Vuelo vuelo) {
         this.controlVuelos.agregarVuelo(vuelo);
+    }
+
+    public void mensajeSalida() {
+       
     }
 }

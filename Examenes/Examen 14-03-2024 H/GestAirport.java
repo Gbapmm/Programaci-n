@@ -1,4 +1,6 @@
 package Examen;
+
+import examen.HorarioVueloException;
 import examen240314.Datos;
 import examen240314.Usuarios;
 import java.time.LocalDateTime;
@@ -6,6 +8,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class GestAirport extends Datos {
+
     public static void main(String[] args) {
         Datos datos = new Datos();
         String[][] data = datos.getVuelos();
@@ -31,12 +34,17 @@ public class GestAirport extends Datos {
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("1. Mostrar cola de vuelos ordenada");
-            System.out.println("2. Dar salida a un vuelo");
-            System.out.println("3. Actualizar lista de vuelos");
-            System.out.println("4. Modificar horarios de un vuelo");
-            System.out.println("5. Salir");
+            System.out.println("""
+                                1. Mostrar cola de vuelos
+                                2. Agregar un nuevo vuelo
+                                3. Eliminar un vuelo
+                                4. Dar salida a un vuelo
+                                5. Actualizar lista de vuelos
+                                6. Modificar horarios de un vuelo
+                                7. Salir""");
+
             int opcion = scanner.nextInt();
+            
             switch (opcion) {
                 case 1:
                     control.mostrarVuelos();
@@ -61,8 +69,10 @@ public class GestAirport extends Datos {
                     }
                     break;
                 case 5:
-                    System.out.println("Gracias por usar GestAirport");
+                    control.mensajeSalida();
+                    scanner.close();
                     System.exit(0);
+                    break;
                 default:
                     System.out.println("Opción no válida");
             }
