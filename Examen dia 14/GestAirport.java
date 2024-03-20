@@ -1,5 +1,6 @@
 public class GestAirport{
     public class static void (String[]args){
+        inicio = System.currentTimeMillis();
 
         while(true){
 

@@ -41,8 +41,7 @@ public class Control {
 
     private void mostrarAgradecimiento() {
         long fin = System.currentTimeMillis();
-        long tiempoEjecucion = fin - inicio;
-        System.out.println("Gracias por utilizar el sistema de gestión de vuelos. ¡Hasta luego!");
-        System.out.println("Tiempo de ejecución: " + tiempoEjecucion + " milisegundos");
+        long tiempoTranscurrido = (fin - inicio) / 60000;
+        System.out.println("Saliendo del programa. Han pasado " + tiempoTranscurrido + " minutos.");
     }
 }
