@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public class CuentaCorriente extends Cuenta {
     private ArrayList<String> entidadesAutorizadas;
 
-    public CuentaCorriente(DatosPersonales titular, double saldo, String numCuenta, ArrayList entidadesAutorizadas) {
+    public CuentaCorriente(DatosPersonales titular, double saldo, int numCuenta, ArrayList entidadesAutorizadas) {
         super(titular, saldo, numCuenta);
     }
 
-    public void setInteres(int TipoInteres) {
+    public void setEntidadesAutorizadas(ArrayList<String> entidadesAutorizadas) {
         this.entidadesAutorizadas = entidadesAutorizadas;
     }
 

@@ -1,16 +1,17 @@
 package Examen_I_Rec;
 
-public class CuentaAhorro extends Cuenta{
-    int TipoInteres;
-    public CuentaAhorro(DatosPersonales titular, double saldo, String numCuenta, int TipoInteres) {
+public class CuentaAhorro extends Cuenta {
+    int tipoInteres;
+
+    public CuentaAhorro(DatosPersonales titular, double saldo, int numCuenta, int tipoInteres) {
         super(titular, saldo, numCuenta);
     }
 
-    public void setInteres(int TipoInteres) {
-        this.TipoInteres = TipoInteres;
+    public void setTipoInteres(int tipoInteres) {
+        this.tipoInteres = tipoInteres;
     }
 
     public int getTipoInteres() {
-        return TipoInteres;
+        return tipoInteres;
     }
 }

@@ -9,7 +9,6 @@ class DatosPersonales {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.fechanac = fechanac;
-
     }
 
     public String getNombre() {
@@ -24,15 +23,10 @@ class DatosPersonales {
         return fechanac;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
-    }
-
-    public void setFechanac(String fechanac) {
-        this.fechanac = fechanac;
+    @Override
+    public String toString() {
+        return  nombre + ".\n"
+                + "Apellidos: " + apellidos + ".\n"
+                + "Fecha nacimiento: " + fechanac + ".";
     }
 }
