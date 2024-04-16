@@ -3,7 +3,8 @@ public class Empleado {
     String dni;
     int edad;
     String departamento;
-
+    
+    //Aqui se crea un objeto Empleado que se utilizará para introducir los valores del Array que guarda los datos del txt
     Empleado (String n, String d, int e, String p){
         nombre = n;
         dni = d;
