@@ -17,7 +17,7 @@ public class Main {
                 agregarLinea(empleados, linea);
                 linea = buffer.readLine();
             }
-            System.out.println("Empleados ordenados por orden alfabética");
+            System.out.println("\nEmpleados ordenados por orden alfabética:\n");
             empleados.sort(new OrdenAlfabetico());
             it = empleados.iterator();
 
@@ -25,7 +25,7 @@ public class Main {
                 Empleado emp = (Empleado) it.next();
                 System.out.println(emp);
             }
-            System.out.println("Empleados ordenados alfabéticamente y por departamento");
+            System.out.println("\nEmpleados ordenados alfabéticamente y por departamento:\n");
             empleados.sort(new OrdenDepartamento());
             it = empleados.iterator();
             while (it.hasNext()){
@@ -40,6 +40,7 @@ public class Main {
         }
     }
 
+//Se asignan los valores del array al objeto Empleado
 public static void agregarLinea(ArrayList<Empleado> lista, String lin) {
     String[] valores = lin.split(";");
     lista.add(new Empleado(valores[0], valores[1], Integer.valueOf(valores[2]), valores[3]));
