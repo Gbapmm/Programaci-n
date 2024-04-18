@@ -1,4 +1,4 @@
-package Ejercicio2;
+package Ejercicio3;
 
 public class Empleado {
     String nombre;
@@ -6,7 +6,6 @@ public class Empleado {
     int edad;
     String departamento;
 
-    //Aqui se crea un objeto Empleado, se utiliza para introducir los valores del Array que guarda los datos del txt.
     Empleado(String n, String d, int e, String p) {
         nombre = n;
         dni = d;
