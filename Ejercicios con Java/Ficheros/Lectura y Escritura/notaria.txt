@@ -1,0 +1,5 @@
+ID: 001, Tipo: Escritura, Fecha: 2022-01-01
+ID: 002, Tipo: Testamento, Fecha: 2022-01-02
+ID: 003, Tipo: Poder, Fecha: 2022-01-03
+ID: 004, Tipo: Contrato, Fecha: 2022-01-04
+ID: 005, Tipo: Acta, Fecha: 2022-01-05
