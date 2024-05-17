@@ -1,0 +1,16 @@
+import java.io.File;
+
+public class SacarInformacionArchivos {
+    public static void main(String[] args) {
+        File archivo = new File("Archivos/ArchivoCreado.txt");
+        if (archivo.exists()) {
+            System.out.println("Nombre del archivo: " + archivo.getName());
+            System.out.println("Ruta del archivo: " + archivo.getAbsolutePath());
+            System.out.println("Permisos de lectura: " + archivo.canRead());
+            System.out.println("Permisos de escritura: " + archivo.canWrite());
+            System.out.println("Tamaño del archivo: " + archivo.length());
+        } else {
+            System.out.println("El archivo no existe");
+        }
+    }
+}
