@@ -1,0 +1,17 @@
+import java.io.IOException;
+import java.io.FileWriter;
+
+public class SobreescribirArchivo {
+    public static void main(String[] args) {
+        try {
+            FileWriter escritura = new FileWriter("Archivos/ArchivoCreado.txt", false);
+
+            escritura.write("Este archivo ha sido sobreescrito\n");
+
+            escritura.close();
+        } catch (IOException e) {
+            System.out.println("Error al escribir en el archivo");
+            e.printStackTrace();
+        }
+    }
+}
