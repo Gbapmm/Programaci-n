@@ -1,0 +1,17 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class EscribirArchivo {
+    public static void main(String[] args) {
+        try {
+            FileWriter escritura = new FileWriter("Archivos/ArchivoCreado.txt", true);
+
+            escritura.write("Esto se añade a continuación de la ultima linea\n");
+
+            escritura.close();
+        } catch (IOException e) {
+            System.out.println("Error al escribir en el archivo");
+            e.printStackTrace();
+        }
+    }
+}
