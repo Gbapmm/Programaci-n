@@ -17,7 +17,8 @@ public class CreacionFicheroConEscritura {
                 escritura.write("Maria,Gonzalez,maria.gonzalez@example.com\n");
                 escritura.write("Carlos,Rodriguez,carlos.rodriguez@example.com\n");
                 escritura.write("Ana,Martinez,ana.martinez@example.com\n");    
-                
+
+                escritura.close(); 
             } else {
                 System.out.println("El archivo ya existe");
             }
