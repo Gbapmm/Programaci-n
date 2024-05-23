@@ -13,14 +13,6 @@ public class Main {
         password = "root";
 
         try {
-            Class.forName("com.mysql.jdbc.Driver").newInstance();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return;
-        }
-
-        try {
             cn = DriverManager.getConnection(url,user,password);
         } catch (SQLException e) {
             e.printStackTrace();
