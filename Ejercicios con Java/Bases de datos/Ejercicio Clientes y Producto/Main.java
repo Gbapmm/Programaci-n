@@ -61,6 +61,7 @@ public class Main {
             }
         }
         
+        /*
         for (Cliente cliente : clientes) {
         System.out.println(cliente);
         }
@@ -68,5 +69,6 @@ public class Main {
         for (Producto producto : productos) {
         System.out.println(producto);
         }
+        */
     }
 }
