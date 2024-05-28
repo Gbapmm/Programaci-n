@@ -23,7 +23,7 @@ public class Main {
             while(rs.next()){
                clientes.add(new Cliente(rs.getString("nombre"),rs.getString("apellido"),rs.getString("tipo_doc"),rs.getString("nro_doc")));
             }
-            cn = DriverManager.getConnection(url,user,password);
+           
             Statement query1 = cn.createStatement();
             ResultSet rs1 = query1.executeQuery("SELECT * FROM productos");
             while(rs1.next()){
